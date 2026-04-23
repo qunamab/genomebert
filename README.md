@@ -3,7 +3,7 @@
 <!-- Banner -->
 <img src="assets/banner.png" alt="GenomeBERT Banner" width="100%"/>
 
-# 🧬 GenomeBERT
+# GenomeBERT
 ### *Applying Transformer Architectures to Genomic Sequence Analysis*
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -20,7 +20,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 **GenomeBERT** is a lightweight Transformer-based model (inspired by BERT) designed to identify **functional regulatory regions** in DNA sequences — such as **promoters**, **enhancers**, and **protein-binding sites** — by treating nucleotide sequences as a natural language.
 
@@ -28,20 +28,20 @@ This project demonstrates that **NLP architectures**, originally designed for hu
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 | Feature | Description |
 |---|---|
-| 🔬 **k-mer Tokenization** | Converts DNA sequences into overlapping k-mer "words" |
-| 🤖 **BERT-style Encoder** | Multi-head self-attention over genomic tokens |
-| 📊 **Multi-class Classification** | Promoter / Enhancer / Protein-binding / Non-functional |
-| 🗂️ **Open-source Data** | Trained on UCSC Genome Browser + EPD datasets |
-| ⚡ **Lightweight Design** | Runs on CPU or single GPU; no HPC cluster required |
-| 📈 **Full Training Notebook** | Reproducible end-to-end Jupyter walkthrough |
+| **k-mer Tokenization** | Converts DNA sequences into overlapping k-mer "words" |
+| **BERT-style Encoder** | Multi-head self-attention over genomic tokens |
+| **Multi-class Classification** | Promoter / Enhancer / Protein-binding / Non-functional |
+| **Open-source Data** | Trained on UCSC Genome Browser + EPD datasets |
+| **Lightweight Design** | Runs on CPU or single GPU; no HPC cluster required |
+| **Full Training Notebook** | Reproducible end-to-end Jupyter walkthrough |
 
 ---
 
-## 🧠 The Core Idea
+## The Core Idea
 
 DNA can be encoded as sequences of characters: `A`, `T`, `G`, `C`. We treat these exactly like text:
 
@@ -56,15 +56,15 @@ This framing lets us leverage the full power of **pre-trained Transformer attent
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 genomics/
 │
-├── 📓 notebooks/
+├── notebooks/
 │   └── GenomeBERT_Training.ipynb     # Full training walkthrough
 │
-├── 🧬 src/
+├── src/
 │   ├── tokenizer.py                  # k-mer DNA tokenizer
 │   ├── model.py                      # GenomeBERT architecture
 │   ├── dataset.py                    # PyTorch dataset & data loading
@@ -72,20 +72,20 @@ genomics/
 │   ├── evaluate.py                   # Metrics & evaluation utilities
 │   └── predict.py                    # Single-sequence inference CLI
 │
-├── 📦 data/
+├── data/
 │   ├── download_data.py              # UCSC + EPD dataset downloader
 │   ├── preprocess.py                 # Sequence cleaning & labeling
 │   └── README.md                     # Dataset documentation
 │
-├── 🏋️ checkpoints/
+├── checkpoints/
 │   └── genomebert_best.pt            # Pre-trained model weights
 │
-├── 📊 results/
+├── results/
 │   ├── training_curves.png
 │   ├── confusion_matrix.png
 │   └── attention_visualization.png
 │
-├── 🎨 assets/
+├── assets/
 │   └── banner.png
 │
 ├── requirements.txt
@@ -95,7 +95,7 @@ genomics/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -152,7 +152,7 @@ The main training notebook [`notebooks/GenomeBERT_Training.ipynb`](notebooks/Gen
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Promoter F1 | Enhancer F1 | Binding Site F1 | Overall Acc |
 |---|---|---|---|---|
@@ -162,7 +162,7 @@ The main training notebook [`notebooks/GenomeBERT_Training.ipynb`](notebooks/Gen
 
 ---
 
-## 🔬 Dataset Sources
+## Dataset Sources
 
 - **[UCSC Genome Browser](https://genome.ucsc.edu/)** — Human genome hg38 annotations
 - **[EPD (Eukaryotic Promoter Database)](https://epd.expasy.org/)** — Experimentally validated promoters
@@ -172,7 +172,7 @@ All datasets are publicly available and downloaded automatically via `data/downl
 
 ---
 
-## 🧪 Model Architecture
+## Model Architecture
 
 ```
 Input DNA Sequence (length L)
@@ -208,10 +208,10 @@ Input DNA Sequence (length L)
 
 ---
 
-## 📄 Citation
+## Citation
 
 ```bibtex
-@software{genomebert2024,
+@software{genomebert2026,
   author    = {Akbar, Qamar Un Nisa},
   title     = {GenomeBERT: Transformer-Based Genomic Regulatory Element Detection},
   year      = {2026},
