@@ -1,0 +1,39 @@
+# GenomeBERT — Python Dependencies
+# ====================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Data Handling
+pandas>=2.0.0
+biopython>=1.81
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Notebook
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+tqdm>=4.65.0
+
+# Bioinformatics / Data Download
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Model Utilities
+einops>=0.6.0
+transformers>=4.30.0   # For tokenizer utilities (optional)
+
+# Logging & Experiment Tracking
+tensorboard>=2.13.0
+
+# Testing
+pytest>=7.4.0
