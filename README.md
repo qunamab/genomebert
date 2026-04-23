@@ -214,7 +214,7 @@ Input DNA Sequence (length L)
 @software{genomebert2024,
   author    = {Akbar, Qamar Un Nisa},
   title     = {GenomeBERT: Transformer-Based Genomic Regulatory Element Detection},
-  year      = {2024},
+  year      = {2026},
   url       = {https://github.com/qunamab/genomebert},
   note      = {Open-source tool for DNA sequence functional annotation}
 }
