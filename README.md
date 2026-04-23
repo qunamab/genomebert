@@ -10,7 +10,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.5281/ZENODO.19708852-orange?style=for-the-badge)](https://doi.org/ZENODO.19708852)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/ZENODO.19708852-orange?style=for-the-badge)](https://doi.org/10.5281/zenodo.19708852)
 
 ---
 
